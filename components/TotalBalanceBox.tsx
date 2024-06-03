@@ -1,5 +1,6 @@
 import { formatAmount } from "@/lib/utils";
 import AnimatedCounter from "./AnimatedCounter";
+import DoughnutChart from "./DoughnutChart";
 
  
 
@@ -9,7 +10,7 @@ const TotalBalanceBox = ({
   return (
     <section className="total-balance">
       <div className="total-balance-chart">
-        {/* <DoughnutChart accounts={accounts} /> */}
+        <DoughnutChart accounts={accounts} />
       
       </div>
 
